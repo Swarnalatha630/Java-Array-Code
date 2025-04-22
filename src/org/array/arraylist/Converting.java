@@ -13,11 +13,14 @@ public class Converting {
 		
 	ArrayList<Integer> al = new ArrayList<>();
 	for (int i = 0; i < a.length; i++) {
-		al.add(a[i]);
+	al.add(a[i]);
+	}
+	System.out.println(al);	
+	
 	}
 	
-	System.out.println(al);
-	
+	private void tharuni() {
+		System.out.println("Tharuni has added the code");
 
 	}
 	public static void main(String[] args) {
