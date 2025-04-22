@@ -23,9 +23,16 @@ public class Converting {
 		System.out.println("Tharuni has added the code");
 
 	}
+	
+	private void gitCode() {
+System.out.println("added git push");
+	}
+	
 	public static void main(String[] args) {
 		Converting c = new Converting();
 		c.sample();
+		c.tharuni();
+		c.gitCode();
 	}
 
 }
