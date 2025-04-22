@@ -20,9 +20,15 @@ public class Converting {
 	
 
 	}
+	
+	private void gitCode() {
+System.out.println("added git push");
+	}
 	public static void main(String[] args) {
 		Converting c = new Converting();
 		c.sample();
+		
+		c.gitCode();
 	}
 
 }
